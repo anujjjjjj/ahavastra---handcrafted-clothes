@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahavastra - Elegant Women's Fashion</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>ahavastra</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#kurtis">Kurtis</a></li>
+          <li><a href="#sarees">Sarees</a></li>
+          <li><a href="#accessories">Accessories</a></li>
+        </ul>
+      </nav>
+      <div class="cart-icon" id="cart-icon">
+        <span class="material-icons">🛒</span>
+        <span class="cart-count" id="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-sidebar" id="cart-sidebar">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button class="close-cart" id="close-cart">×</button>
+    </div>
+    <div class="cart-items" id="cart-items">
+      <!-- Cart items will be dynamically added here -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <p>Total: ₹<span id="cart-total">0</span></p>
+      </div>
+      <button class="checkout-btn">Checkout</button>
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Hero Banner Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Summer Collection</h2>
+        <p>Discover timeless elegance with our exclusive collection</p>
+        <a href="#kurtis" class="btn">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kurtis Section -->
+  <section class="products" id="kurtis">
+    <div class="container">
+      <div class="section-header">
+        <h2>Kurtis Collection</h2>
+        <p>Elegance redefined with our handpicked selection</p>
+      </div>
+      <div class="product-grid" id="kurtis-grid">
+        <!-- Products will be loaded dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Sarees Section -->
+  <section class="products" id="sarees">
+    <div class="container">
+      <div class="section-header">
+        <h2>Sarees Collection</h2>
+        <p>Traditional beauty with a contemporary touch</p>
+      </div>
+      <div class="product-grid" id="sarees-grid">
+        <!-- Products will be loaded dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Accessories Section -->
+  <section class="products" id="accessories">
+    <div class="container">
+      <div class="section-header">
+        <h2>Accessories Collection</h2>
+        <p>Complete your look with our beautiful accessories</p>
+      </div>
+      <div class="product-grid" id="accessories-grid">
+        <!-- Products will be loaded dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get updates on our latest collections and exclusive offers</p>
+        <form>
+          <input type="email" placeholder="Your email address">
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>ahavastra</h3>
+          <p>Celebrating the timeless beauty of Indian fashion with modern elegance.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#kurtis">Kurtis</a></li>
+            <li><a href="#sarees">Sarees</a></li>
+            <li><a href="#accessories">Accessories</a></li>
+            <li><a href="#">New Arrivals</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Size Guide</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>Email: info@ahavastra.com</p>
+          <p>Phone: +91 1234567890</p>
+          <div class="social-icons">
+            <a href="#">🔵</a>
+            <a href="#">🔴</a>
+            <a href="#">⚫</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Ahavastra. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
