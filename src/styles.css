@@ -1,4 +1,3 @@
-
 /* Base Styles */
 :root {
   --primary-color: #e5deff;
@@ -296,34 +295,99 @@ nav ul li a.active:after {
 
 /* Hero Banner */
 .hero {
+  position: relative;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/lovable-uploads/1');
-  background-size: cover;
-  background-position: center;
-  color: white;
+  min-height: 450px;
   display: flex;
   align-items: center;
   margin-top: 80px;
+  overflow: hidden;
+  background: none;
+}
+
+.hero-bg-img {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: url("public/lovable-uploads/55672faa-114e-4ebd-b1ab-ec584fe9dccd.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  /* optional: add a subtle overlay for text contrast */
+  /* You can use the :after pseudo-element or just a semi-transparent background */
+}
+
+.hero-bg-img:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(255,255,255,0.08) 40%, rgba(0,0,0,0.12) 100%);
+  z-index: 1;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+  /* For overlaying content above the background image */
 }
 
 .hero-content {
   max-width: 600px;
+  color: white;
+  text-shadow: 0 2px 11px rgba(0,0,0,0.17);
 }
 
 .hero-content h2 {
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 20px;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 .hero-content p {
   font-size: 18px;
   margin-bottom: 30px;
+  color: #fff;
 }
 
 .hero-content .btn {
   background-color: white;
   color: var(--text-color);
+}
+
+@media (max-width: 992px) {
+  .hero-content h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content h2 {
+    font-size: 32px;
+  }
+  .hero-content p {
+    font-size: 16px;
+  }
+  .hero {
+    min-height: 300px;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-content h2 {
+    font-size: 28px;
+  }
+  .hero-bg-img {
+    background-position: center 30%;
+  }
+  .hero {
+    min-height: 220px;
+    height: 45vh;
+  }
 }
 
 /* Products Section */
