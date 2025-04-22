@@ -6,43 +6,43 @@ const products = {
       id: 'k1',
       name: 'Embroidered Cotton Kurti',
       price: 1299,
-      image: '/lovable-uploads/1'
+      image: 'images/image3.jpeg'
     },
     {
       id: 'k2',
       name: 'Floral Print Anarkali Kurti',
       price: 1499,
-      image: '/lovable-uploads/2'
+      image: 'images/image5.jpeg'
     },
     {
       id: 'k3',
       name: 'Elegant Maroon Kurti',
       price: 1199,
-      image: '/lovable-uploads/3'
+      image: 'images/image7.jpeg'
     },
     {
       id: 'k4',
       name: 'Blue Printed Cotton Kurti',
       price: 999,
-      image: '/lovable-uploads/4'
+      image: 'images/image1.jpeg'
     },
     {
       id: 'k5',
       name: 'Yellow Embroidered Kurti',
       price: 1599,
-      image: '/lovable-uploads/5'
+      image: 'images/image2.jpeg'
     },
     {
       id: 'k6',
       name: 'Green Straight Cut Kurti',
       price: 1399,
-      image: '/lovable-uploads/6'
+      image: 'images/image4.jpeg'
     },
     {
       id: 'k7',
       name: 'Designer Ethnic Kurti',
       price: 1899,
-      image: '/lovable-uploads/7'
+      image: 'images/image6.jpeg'
     }
   ],
   sarees: [
@@ -50,43 +50,43 @@ const products = {
       id: 's1',
       name: 'Silk Banarasi Saree',
       price: 3999,
-      image: '/lovable-uploads/1'
+      image: 'images/image1.jpeg'
     },
     {
       id: 's2',
       name: 'Cotton Handloom Saree',
       price: 2499,
-      image: '/lovable-uploads/2'
+      image: 'images/image2.jpeg'
     },
     {
       id: 's3',
       name: 'Georgette Printed Saree',
       price: 1899,
-      image: '/lovable-uploads/3'
+      image: 'images/image4.jpeg'
     },
     {
       id: 's4',
       name: 'Designer Silk Saree',
       price: 4999,
-      image: '/lovable-uploads/4'
+      image: 'images/image6.jpeg'
     },
     {
       id: 's5',
       name: 'Festive Embroidered Saree',
       price: 5999,
-      image: '/lovable-uploads/5'
+      image: 'images/image3.jpeg'
     },
     {
       id: 's6',
       name: 'Chiffon Lightweight Saree',
       price: 1699,
-      image: '/lovable-uploads/6'
+      image: 'images/image5.jpeg'
     },
     {
       id: 's7',
       name: 'Bridal Collection Saree',
       price: 8999,
-      image: '/lovable-uploads/7'
+      image: 'images/image7.jpeg'
     }
   ],
   accessories: [
@@ -94,43 +94,43 @@ const products = {
       id: 'a1',
       name: 'Traditional Earrings',
       price: 899,
-      image: '/lovable-uploads/1'
+      image: 'images/image3.jpeg'
     },
     {
       id: 'a2',
       name: 'Statement Necklace Set',
       price: 1499,
-      image: '/lovable-uploads/2'
+      image: 'images/image5.jpeg'
     },
     {
       id: 'a3',
       name: 'Embroidered Potli Bag',
       price: 1299,
-      image: '/lovable-uploads/3'
+      image: 'images/image7.jpeg'
     },
     {
       id: 'a4',
       name: 'Beaded Bangles Set',
       price: 699,
-      image: '/lovable-uploads/4'
+      image: 'images/image1.jpeg'
     },
     {
       id: 'a5',
       name: 'Designer Clutch',
       price: 1999,
-      image: '/lovable-uploads/5'
+      image: 'images/image2.jpeg'
     },
     {
       id: 'a6',
       name: 'Traditional Maang Tikka',
       price: 1199,
-      image: '/lovable-uploads/6'
+      image: 'images/image4.jpeg'
     },
     {
       id: 'a7',
       name: 'Ethnic Anklets',
       price: 799,
-      image: '/lovable-uploads/7'
+      image: 'images/image6.jpeg'
     }
   ]
 };
