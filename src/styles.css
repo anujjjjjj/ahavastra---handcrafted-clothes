@@ -42,6 +42,14 @@ ul {
   padding: 0 15px;
 }
 
+.responsive-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* optional */
+}
+
+
 .btn {
   display: inline-block;
   background-color: var(--text-color);
@@ -309,7 +317,7 @@ nav ul li a.active:after {
   position: absolute;
   inset: 0;
   z-index: 0;
-  background-image: url("public/lovable-uploads/55672faa-114e-4ebd-b1ab-ec584fe9dccd.png");
+  background-image: url("images/summer.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
