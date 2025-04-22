@@ -6,43 +6,43 @@ const products = {
       id: 'k1',
       name: 'Embroidered Cotton Kurti',
       price: 1299,
-      image: '/lovable-uploads/1'
+      image: 'public/lovable-uploads/9eeda303-cb1e-4427-8d68-3964971f012e.png'  // Cream & chevron design
     },
     {
       id: 'k2',
       name: 'Floral Print Anarkali Kurti',
       price: 1499,
-      image: '/lovable-uploads/2'
+      image: 'public/lovable-uploads/27d29df9-10e5-4a84-b268-2fb2ddd0ae86.png' // Pink/red kurti
     },
     {
       id: 'k3',
       name: 'Elegant Maroon Kurti',
       price: 1199,
-      image: '/lovable-uploads/3'
+      image: 'public/lovable-uploads/0df91b2a-1ec2-4827-9a17-06f345a994f2.png' // Burgundy set
     },
     {
       id: 'k4',
       name: 'Blue Printed Cotton Kurti',
       price: 999,
-      image: '/lovable-uploads/4'
+      image: 'public/lovable-uploads/566aed09-e777-423d-8d25-3e4e0e19a7ca.png' // Blue/white with foliage pattern
     },
     {
       id: 'k5',
       name: 'Yellow Embroidered Kurti',
       price: 1599,
-      image: '/lovable-uploads/5'
+      image: 'public/lovable-uploads/74054adc-aece-4e97-8e5e-92b4ae8a2a97.png' // Blue print with green/white wrap
     },
     {
       id: 'k6',
       name: 'Green Straight Cut Kurti',
       price: 1399,
-      image: '/lovable-uploads/6'
+      image: 'public/lovable-uploads/0fb8ee4c-9945-4370-90cb-535b2f2acffb.png' // Beige and black design
     },
     {
       id: 'k7',
       name: 'Designer Ethnic Kurti',
       price: 1899,
-      image: '/lovable-uploads/7'
+      image: 'public/lovable-uploads/969128e2-b70c-4878-afe6-1b36d56883f9.png' // Off-white with blue stripe
     }
   ],
   sarees: [
@@ -50,43 +50,43 @@ const products = {
       id: 's1',
       name: 'Silk Banarasi Saree',
       price: 3999,
-      image: '/lovable-uploads/1'
+      image: 'public/lovable-uploads/0df91b2a-1ec2-4827-9a17-06f345a994f2.png'
     },
     {
       id: 's2',
       name: 'Cotton Handloom Saree',
       price: 2499,
-      image: '/lovable-uploads/2'
+      image: 'public/lovable-uploads/566aed09-e777-423d-8d25-3e4e0e19a7ca.png'
     },
     {
       id: 's3',
       name: 'Georgette Printed Saree',
       price: 1899,
-      image: '/lovable-uploads/3'
+      image: 'public/lovable-uploads/9eeda303-cb1e-4427-8d68-3964971f012e.png'
     },
     {
       id: 's4',
       name: 'Designer Silk Saree',
       price: 4999,
-      image: '/lovable-uploads/4'
+      image: 'public/lovable-uploads/969128e2-b70c-4878-afe6-1b36d56883f9.png'
     },
     {
       id: 's5',
       name: 'Festive Embroidered Saree',
       price: 5999,
-      image: '/lovable-uploads/5'
+      image: 'public/lovable-uploads/74054adc-aece-4e97-8e5e-92b4ae8a2a97.png'
     },
     {
       id: 's6',
       name: 'Chiffon Lightweight Saree',
       price: 1699,
-      image: '/lovable-uploads/6'
+      image: 'public/lovable-uploads/27d29df9-10e5-4a84-b268-2fb2ddd0ae86.png'
     },
     {
       id: 's7',
       name: 'Bridal Collection Saree',
       price: 8999,
-      image: '/lovable-uploads/7'
+      image: 'public/lovable-uploads/0fb8ee4c-9945-4370-90cb-535b2f2acffb.png'
     }
   ],
   accessories: [
@@ -94,43 +94,43 @@ const products = {
       id: 'a1',
       name: 'Traditional Earrings',
       price: 899,
-      image: '/lovable-uploads/1'
+      image: 'public/lovable-uploads/0df91b2a-1ec2-4827-9a17-06f345a994f2.png'
     },
     {
       id: 'a2',
       name: 'Statement Necklace Set',
       price: 1499,
-      image: '/lovable-uploads/2'
+      image: 'public/lovable-uploads/27d29df9-10e5-4a84-b268-2fb2ddd0ae86.png'
     },
     {
       id: 'a3',
       name: 'Embroidered Potli Bag',
       price: 1299,
-      image: '/lovable-uploads/3'
+      image: 'public/lovable-uploads/566aed09-e777-423d-8d25-3e4e0e19a7ca.png'
     },
     {
       id: 'a4',
       name: 'Beaded Bangles Set',
       price: 699,
-      image: '/lovable-uploads/4'
+      image: 'public/lovable-uploads/9eeda303-cb1e-4427-8d68-3964971f012e.png'
     },
     {
       id: 'a5',
       name: 'Designer Clutch',
       price: 1999,
-      image: '/lovable-uploads/5'
+      image: 'public/lovable-uploads/969128e2-b70c-4878-afe6-1b36d56883f9.png'
     },
     {
       id: 'a6',
       name: 'Traditional Maang Tikka',
       price: 1199,
-      image: '/lovable-uploads/6'
+      image: 'public/lovable-uploads/74054adc-aece-4e97-8e5e-92b4ae8a2a97.png'
     },
     {
       id: 'a7',
       name: 'Ethnic Anklets',
       price: 799,
-      image: '/lovable-uploads/7'
+      image: 'public/lovable-uploads/0fb8ee4c-9945-4370-90cb-535b2f2acffb.png'
     }
   ]
 };
